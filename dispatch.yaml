@@ -1,0 +1,9 @@
+
+dispatch:
+ 
+  - url: "*/py/*"
+    service: py-svc
+  
+  - url: "*/*"
+    service: default
+
